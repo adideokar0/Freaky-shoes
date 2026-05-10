@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Freeky Shoes</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    header {
+        background: black;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        background: #333;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: yellow;
+    }
+
+    .banner {
+        background: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff') no-repeat center;
+        background-size: cover;
+        height: 300px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .categories {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .category {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        width: 20%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .category img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .products {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        background: white;
+        width: 30%;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .price {
+        color: green;
+        font-weight: bold;
+    }
+
+    button {
+        background: black;
+        color: white;
+        border: none;
+        padding: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background: orange;
+    }
+
+    footer {
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Freaky Shoes</h1>
+    <p>Your Style, Your Comfort</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Categories</a>
+    <a href="#">Products</a>
+    <a href="#">Cart</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="banner">
+    Step Into Style 👟
+</div>
+
+<div class="container">
+
+    <h2>Categories</h2>
+    <div class="categories">
+        <div class="category">
+            <img src="https://images.unsplash.com/photo-1528701800489-20be9c3b8d6f">
+            <p>Men</p>
+        </div>
+
+        <div class="category">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
+            <p>Women</p>
+        </div>
+
+        <div class="category">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a">
+            <p>Sports</p>
+        </div>
+
+        <div class="category">
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
+            <p>Casual</p>
+        </div>
+    </div>
+
+    <h2>Featured Products</h2>
+    <div class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+            <h3>Running Shoes</h3>
+            <p class="price">₹1999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+            <h3>Casual Sneakers</h3>
+            <p class="price">₹1499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1597045566677-8cf032ed6634">
+            <h3>Sports Trainers</h3>
+            <p class="price">₹2499</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Freeky Shoes | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
